@@ -24,6 +24,8 @@
             $.md.linkGimmick(this, 'themechooser', themechooser, 'skel_ready');
             $.md.linkGimmick(this, 'theme', apply_theme);
 
+            // extends built-in themes with config themes
+            themes = $.merge($.md.config.themes, themes);
         }
     };
     $.md.registerGimmick(themeChooserGimmick);

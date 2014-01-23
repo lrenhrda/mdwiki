@@ -25,7 +25,8 @@
             disable: false,
             returnAnchor: "[top]",
             useHeadings: "h2"
-        }
+        },
+        themes: []
     };
 
 
